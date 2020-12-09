@@ -22,4 +22,4 @@ pool.on("error", (err, client) => {
   console.error("Error:", err);
 });
 
-// module.exports = pool;
+module.exports = pool;
