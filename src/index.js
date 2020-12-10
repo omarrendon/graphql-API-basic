@@ -5,6 +5,7 @@ const { ApolloServer } = require("apollo-server-express");
 const schema = require("./graphql/index");
 
 const app = express();
+app.use(express.json());
 
 const server = new ApolloServer({
   schema,

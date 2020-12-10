@@ -1,9 +1,9 @@
-const data = require("../../data/data.json");
+const User = require("../../data/data");
 
 const resolver = {
   Query: {
-    getUsers: () => {
-      return data.User;
+    getUsers() {
+      return User;
     },
   },
 };
